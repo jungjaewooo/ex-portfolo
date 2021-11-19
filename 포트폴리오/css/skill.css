@@ -1,6 +1,6 @@
 @charset 'utf-8';
  /* 스킬스타일 */
-.section.skill{background-color:#ccc;}
+.section.skill{background-color:#ccc; margin-top: 15%;}
 .section.skill article{width:46.875%;margin-bottom:36px;} 
 .section.skill .sec-tit{color:#333;}           
 .section.skill .img-box{margin-bottom:14px;text-align: center;}

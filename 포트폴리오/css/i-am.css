@@ -1,23 +1,37 @@
 @charset 'utf-8';
 /* 아이엠스타일 */
-.section.i-am{
-    
-}            
+.section.i-am .sec-tit{margin-top:0px; margin-bottom: 100px;}   
 .section.i-am .img-box{
     margin-bottom:26px;
     text-align:center;
 }
 .section.i-am .img-box img{
+    
     width:158px;
+    height: 500px;
+        
 }
+.section.i-am .con-tit{
+    position:absolute;
+    margin-top: 100px;
+    left: 30%;    
+}
+/* .con-tit>h3{position: relative; bottom:50px;} */
+.con-tit h4{font-size:38px;position: relative; top:30px;left: 30%; color:#333}
+.con-tit .sub-pr,.sub-bb p{
+   font-weight:300; font-size: 20px; position:relative; top:8px;left:66%;
+}
+
+
+
 
 @media(min-width:768px){
     .section.i-am h2{order:1;}
-    .section.i-am .con-txt{width:57.28021978021978%;order:2;}
+    .section.i-am .con-tit{width:45.28021978021978%;order:2;}
     .section.i-am .img-box{width:40.10989010989011%;order:3;}
 }
-@media(min-width:1220px){
-    .section.i-am .con-txt{width:57.6271186440678%;}
+@media(min-width:1220px){    
+    .section.i-am .con-tit{width:57.6271186440678%;}
     .section.i-am .img-box{width:40.67796610169492%;}
-    .section.i-am .img-box img{width:268px;}
+    .section.i-am .img-box img{width:350px;}
 }
